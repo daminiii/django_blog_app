@@ -1,0 +1,19 @@
+.bodyclass{
+    background-color: rgb(10, 95, 95);
+}
+
+.card{
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+    
+}
+
+.full-text{
+    padding-bottom: 1rem;
+}
+
+.imageclass{
+    height: 300px;
+    width: 700px;
+}

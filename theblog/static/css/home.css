@@ -1,0 +1,26 @@
+.bodyclas{
+    background-color: rgb(67, 112, 173);
+}
+
+.heading {
+    text-align: center;
+}
+
+.buton{
+    text-align: right;
+    margin-right: 44px;
+    margin-top: 20px;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.card-title {
+    text-align: center;
+
+}
+
+.container {
+    margin-top: 40px;
+}

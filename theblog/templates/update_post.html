@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/update_post.css' %}">
+
+{% block title %}
+Edit Blog Post
+{% endblock %}
+
+{% block content %}
+<h1 class="heading">Update Post...</h1>
+<br /><br />
+
+<div class="card" style="width: 38rem;">
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p}}
+        <button class="btn btn-secondary">Post</button>
+    </form>
+</div>
+
+{% endblock %}
